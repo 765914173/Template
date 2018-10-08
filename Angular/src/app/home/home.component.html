@@ -1,3 +1,39 @@
-<p>
-  home works!
-</p>
+<div class="homePage">
+  <div class="header container">
+    <div class="row">
+      <div class="col-lg-4">
+        logo and button
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="body container">
+    <div class="row">
+      <div class="body-left col-md-3">
+        left of body
+      </div>
+
+      <div class="body-right col-md-8 col-md-offset-0">
+        right of body
+      </div>
+    </div>
+  </div> -->
+
+  <div class="body">
+    <el-carousel :interval="5000" arrow="always">
+      <el-carousel-item *ngFor="let url of carouselImg" :key="url">
+        <img [src]="url">
+      </el-carousel-item>
+    </el-carousel>
+
+    <el-button type='success'>success</el-button>
+  </div>
+
+  <div class="info">
+
+  </div>
+
+  <div class="body-footer">
+
+  </div>
+</div>

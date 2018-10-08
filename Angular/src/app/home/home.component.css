@@ -1,0 +1,20 @@
+.header {
+    line-height: 150px;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    background-color: red;
+}
+
+.body {
+    width: 100%;
+    margin-top: 3px;
+}
+
+/* .body-left {
+    background-color: antiquewhite;
+}
+
+.body-right {
+    background-color: azure;
+} */
